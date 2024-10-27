@@ -26,8 +26,9 @@ body{
 }
 
 .overlay{
-    background-image: url("https://img.freepik.com/free-photo/row-colorful-balloons-with-word-balloon-bottom_1340-25930.jpg?t=st=1730024836~exp=1730028436~hmac=9fbbf8e86e56674158e294ed299268f17b885b1996331c66a6ad3e860ba7a92d&w=996");
-    background-size: cover;
+    /* background-image: url(""); */
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     position: absolute;
     top: 0;
