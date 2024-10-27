@@ -16,20 +16,43 @@ body{
 .invitation-container{
     background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     width: 90%;
     max-width: 500px;
     text-align: center;
     overflow: hidden;
+    background-size: cover;
+    
 }
 
-.banner img{
+.overlay{
+    background-image: url("https://img.freepik.com/free-photo/row-colorful-balloons-with-word-balloon-bottom_1340-25930.jpg?t=st=1730024836~exp=1730028436~hmac=9fbbf8e86e56674158e294ed299268f17b885b1996331c66a6ad3e860ba7a92d&w=996");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
+    opacity: 1;
+    z-index: 1;
+    /* max-width: 500px; */
+}
+
+.content{
+    position: relative;
+    z-index: 2;
+}
+.banner img{
+    margin-top: 20px;
+    height: 200px;
+    width: 150px;
+    border-radius: 30%;
+    border:5px solid black;
 }
 
 h1 {
-    color: #2d6a4f;
+    color:#622569;
     font-size: 2em;
     margin: 15px 0 10px;
 }
@@ -41,7 +64,7 @@ h1 {
 }
 
 h2 {
-    color: #1b4332;
+    color: #622569;
     font-size: 1.8em;
     margin:10px 0;
 }
@@ -62,7 +85,7 @@ h2 {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #2d6a4f;
+    background-color:#622569;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
@@ -77,4 +100,8 @@ h2 {
     font-size: 1.1em;
     color: #555555;
     margin: 20px;
+}
+
+strong{
+    color: #622569;
 }
